@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.psnascimento.adv.br/sitemap.xml
