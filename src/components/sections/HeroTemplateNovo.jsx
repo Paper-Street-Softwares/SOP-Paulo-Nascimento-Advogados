@@ -85,7 +85,7 @@ function HeroTemplateNovo({
           className={`absolute bottom-0 left-0 w-[40%] h-1/2 rounded-full blur-3xl -translate-x-1/4 translate-y-1/4 z-0 ${backgroundMode}`}
         />
         <SectionWrapper>
-          <div className="container relative z-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="relative z-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Content */}
 
             <motion.div
@@ -166,14 +166,23 @@ function HeroTemplateNovo({
               className="relative order-1 lg:order-2"
             >
               <div
-                className={`relative rounded-[2.5rem] overflow-hidden aspect-[3/4] md:aspect-[4/5] shadow-2xl lg:aspect-[3/4] ring-1 ring-black/5 bg-gray-100 ${image}`}
+                className={`relative rounded-[1.5rem] phone2:rounded-[2.5rem] overflow-hidden aspect-[2/1] phone2:aspect-[3/2] md:aspect-[3/2] lg:aspect-[3/4] ring-1 ring-black/5 ${borderColor} ${image}`}
               >
+                <img
+                  src={content.texts.hero.heroDefaulMobiletImg}
+                  alt={content.texts.hero.alt}
+                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 desktop1:hidden"
+                  width={621}
+                  height={349}
+                  fetchPriority="high"
+                />
+
                 <img
                   src={content.texts.hero.heroDefaultImage}
                   alt={content.texts.hero.alt}
-                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
-                  width={790}
-                  height={992}
+                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 hidden desktop1:flex"
+                  width={621}
+                  height={828}
                   fetchPriority="high"
                 />
 

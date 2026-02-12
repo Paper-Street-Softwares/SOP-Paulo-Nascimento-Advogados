@@ -150,6 +150,23 @@ Paulo Nascimento Cuiabá.
       content="https://www.psnascimento.adv.br/previewIcon.png"
     />
     <meta name="twitter:url" content="https://www.psnascimento.adv.br/" />
+
+    <!-- Preload de imagem para LCP -->
+    <link
+      rel="preload"
+      as="image"
+      href="./src/assets/imgs/hero/lawHeroMobile.webp"
+      fetchpriority="high"
+      decoding="async"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./src/assets/imgs/hero/lawHero.webp"
+      fetchpriority="high"
+      decoding="async"
+    />
+    <!-- Fim do Preload de imagem para LCP -->
   </head>
   <body>
     <div id="root"></div>
