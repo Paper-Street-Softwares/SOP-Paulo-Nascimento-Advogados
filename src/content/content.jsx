@@ -3,8 +3,8 @@ import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
 import heroDefaultMobileImg from '../assets/imgs/hero/lawHeroMobile.webp'
 import imgFeatures from '../assets/imgs/features/imgServices.webp'
 import aboutImg from '../assets/imgs/about/aboutImg.webp'
-import team1 from '../assets/imgs/team/team1.webp'
-import team2 from '../assets/imgs/team/team2.webp'
+// import team1 from '../assets/imgs/team/team1.webp'
+// import team2 from '../assets/imgs/team/team2.webp'
 import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
 import imgSteps from '../assets/imgs/steps/imgSteps.webp'
 
@@ -390,30 +390,30 @@ const content = {
         labelYoutube: 'Siga-nos no Youtube',
       },
     },
-    team: {
-      miniTag: ' A_Definir',
-      title: (
-        <h1>
-          A_Definir <span className="italic text-primaryDark">A_Definir</span>
-          A_Definir
-        </h1>
-      ),
-      subtitle: 'A_Definir',
-      cards: {
-        card1: {
-          img1: team1,
-          alt: 'Imagens ilustrativa dos profissionais',
-          name: 'A_Definir',
-          description: <p>A_Definir</p>,
-        },
-        card2: {
-          img2: team2,
-          alt: 'Imagens ilustrativa dos profissionais',
-          name: 'A_Definir',
-          description: <p>A_Definir</p>,
-        },
-      },
-    },
+    // team: {
+    //   miniTag: ' A_Definir',
+    //   title: (
+    //     <h1>
+    //       A_Definir <span className="italic text-primaryDark">A_Definir</span>
+    //       A_Definir
+    //     </h1>
+    //   ),
+    //   subtitle: 'A_Definir',
+    //   cards: {
+    //     card1: {
+    //       img1: team1,
+    //       alt: 'Imagens ilustrativa dos profissionais',
+    //       name: 'A_Definir',
+    //       description: <p>A_Definir</p>,
+    //     },
+    //     card2: {
+    //       img2: team2,
+    //       alt: 'Imagens ilustrativa dos profissionais',
+    //       name: 'A_Definir',
+    //       description: <p>A_Definir</p>,
+    //     },
+    //   },
+    // },
     steps: {
       miniTag: 'PASSO A PASSO',
       title: (

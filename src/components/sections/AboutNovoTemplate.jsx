@@ -120,9 +120,9 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                         <CheckCircle2 className="w-5 h-5" />
                       </div>
                       <div>
-                        <h3 className={`font-bold font-secondFont ${text}`}>
+                        <h1 className={`font-bold font-secondFont ${text}`}>
                           {item.title}
-                        </h3>
+                        </h1>
                         <p
                           className={`text-sm font-secondFont font-light ${textOpacity}`}
                         >
