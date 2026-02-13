@@ -16,7 +16,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 const features = Object.values(content.texts.features.cards)
 
-function FeaturesNovaTemplate({ colorMode }) {
+function FeaturesNovaTemplate({ colorMode, link }) {
   // Definindo classes dinamicamente conforme o colorMode
   let backgroundMode,
     text,
@@ -210,6 +210,20 @@ function FeaturesNovaTemplate({ colorMode }) {
                       >
                         {feature.subtitle}
                       </p>
+                      {feature.link && (
+                        <div className="font-secondFont mt-4">
+                          <a
+                            href={feature.link}
+                            target="_blank"
+                            className={`text-paragraph4 cursor-pointer scale-100 hover:scale-95 transition-all flex gap-2 opacity-95 ${textDestaque} ${hoverTextCard}`}
+                          >
+                            {feature.buttonLabel}
+                            <span>
+                              <ArrowRight width={20} />
+                            </span>
+                          </a>
+                        </div>
+                      )}
                     </motion.div>
                   ))}
                 </div>

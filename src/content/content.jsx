@@ -206,6 +206,7 @@ const content = {
           icon: <CircleDollarSign />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
+          link: 'https://lpa-paulo-nascimento-advogados.vercel.app/',
         },
         card2: {
           title: 'Direito Imobiliário',
@@ -222,6 +223,7 @@ const content = {
           icon: <Building />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
+          link: 'https://lpa-direito-imobiliario-paulo.vercel.app/',
         },
         card3: {
           title: 'Direito Cível',
@@ -237,6 +239,7 @@ const content = {
           icon: <Scale />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
+          link: '',
         },
         card4: {
           title: 'Direito Sucessório',
@@ -253,6 +256,7 @@ const content = {
           icon: <Users />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
+          link: 'https://lpa-secessao-paulo-nascimento.vercel.app/',
         },
         card5: {
           title: <p>A_Definir</p>,
