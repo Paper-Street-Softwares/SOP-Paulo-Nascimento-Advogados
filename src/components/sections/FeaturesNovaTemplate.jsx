@@ -215,11 +215,11 @@ function FeaturesNovaTemplate({ colorMode, link }) {
                           <a
                             href={feature.link}
                             target="_blank"
-                            className={`text-paragraph4 cursor-pointer scale-100 hover:scale-95 transition-all flex gap-2 opacity-95 ${textDestaque} ${hoverTextCard}`}
+                            className={` py-1 px-2 rounded-[3px] text-paragraph2 items-center cursor-pointer scale-100 hover:scale-95 transition-all flex gap-2 opacity-95 bg-primaryDark w-fit text-white group-hover:bg-terciary group-hover:text-black duration-500`}
                           >
                             {feature.buttonLabel}
                             <span>
-                              <ArrowRight width={20} />
+                              <ArrowRight width={14} />
                             </span>
                           </a>
                         </div>

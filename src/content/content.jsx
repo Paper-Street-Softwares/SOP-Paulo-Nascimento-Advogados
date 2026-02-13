@@ -205,7 +205,7 @@ const content = {
           ),
           icon: <CircleDollarSign />,
           buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabel: 'Saiba mais',
           link: 'https://lpa-paulo-nascimento-advogados.vercel.app/',
         },
         card2: {
@@ -222,7 +222,7 @@ const content = {
           ),
           icon: <Building />,
           buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabel: 'Saiba mais',
           link: 'https://lpa-direito-imobiliario-paulo.vercel.app/',
         },
         card3: {
@@ -238,7 +238,7 @@ const content = {
           ),
           icon: <Scale />,
           buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabel: 'Saiba mais',
           link: '',
         },
         card4: {
@@ -255,7 +255,7 @@ const content = {
           ),
           icon: <Users />,
           buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabel: 'Saiba mais',
           link: 'https://lpa-secessao-paulo-nascimento.vercel.app/',
         },
         card5: {
