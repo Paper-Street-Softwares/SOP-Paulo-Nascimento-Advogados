@@ -1,12 +1,12 @@
-import logo from '../assets/imgs/logo/logo.webp'
-import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
-import heroDefaultMobileImg from '../assets/imgs/hero/lawHeroMobile.webp'
-import imgFeatures from '../assets/imgs/features/imgServices.webp'
-import aboutImg from '../assets/imgs/about/aboutImg.webp'
+import logo from "../assets/imgs/logo/logo.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultMobileImg from "../assets/imgs/hero/lawHeroMobile.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import team1 from '../assets/imgs/team/team1.webp'
 // import team2 from '../assets/imgs/team/team2.webp'
-import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
-import imgSteps from '../assets/imgs/steps/imgSteps.webp'
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import {
   Baby,
@@ -25,31 +25,31 @@ import {
   Scale,
   User,
   X,
-} from 'lucide-react'
-import { Users } from 'lucide-react'
-import { FileText } from 'lucide-react'
+} from "lucide-react";
+import { Users } from "lucide-react";
+import { FileText } from "lucide-react";
 
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: 'Paulo Nascimento Advogados',
-  email: 'contato', // Email desejado pelo cliente
-  emailSecundario: 'psnascimento.adv@gmail.com', // Email desejado pelo cliente
-  domain: 'bancario.psnascimento.adv.br', // Sem "www"
+  name: "Paulo Nascimento Advogados",
+  email: "contato", // Email desejado pelo cliente
+  emailSecundario: "psnascimento.adv@gmail.com", // Email desejado pelo cliente
+  domain: "bancario.psnascimento.adv.br", // Sem "www"
   phone: {
-    ddd: '65',
-    firstPart: '99951', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '3494', // Apenas os 4 últimos números
+    ddd: "65",
+    firstPart: "99951", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3494", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: 'A_Definir',
-    firstPart: 'A_Definir', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: 'A_Definir', // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: 'A_Definir',
-    firstPart: 'A_Definir', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: 'A_Definir', // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -75,18 +75,18 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: 'nascimentoadvassociados', // Sem o @
-  facebookProfile: '',
-  linkeDinProfile: '',
-  x: '',
-  tiktokProfile: '',
+  instagramProfile: "nascimentoadvassociados", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
-    'Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.',
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    'Gostaria de falar conosco agora mesmo? Clque abaixo 👇',
-  slogan: '',
-}
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+  slogan: "",
+};
 
 const content = {
   texts: {
@@ -100,24 +100,24 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: [
-        'Início',
-        'Serviços',
-        'Sobre',
-        'Perguntas',
+        "Início",
+        "Serviços",
+        "Sobre",
+        "Perguntas",
         // 'Blog',
         // 'Perguntas',
         // 'Mapa',
       ],
-      menuId: ['home', 'feature', 'about', 'faq'],
-      ariaLabel: 'Botão de Contato',
-      ctaButtonText: 'Contato',
-      ctaButtonTextResponsive: 'Contato',
+      menuId: ["home", "feature", "about", "faq"],
+      ariaLabel: "Botão de Contato",
+      ctaButtonText: "Contato",
+      ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: 'ESCRITÓRIO DE ADVOCACIA',
+      miniTag: "ESCRITÓRIO DE ADVOCACIA",
       title: (
         <h1>
-          Dedicação e{' '}
+          Dedicação e{" "}
           <span className="destaque relative italic font-light">
             excelência
             <span>
@@ -134,7 +134,7 @@ const content = {
                 />
               </svg>
             </span>
-          </span>{' '}
+          </span>{" "}
           em serviços jurídicos
         </h1>
       ),
@@ -146,39 +146,39 @@ const content = {
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       heroDefaulMobiletImg: heroDefaultMobileImg,
-      alt: 'Imagem ilustrativa da Seção Início',
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'Conquiste o sucesso conosco',
-      ctaButtonTextSecondary: 'A_Definir',
+        "Botão para chamada de ação para contato pelo whatsapp",
+      ctaButtonText: "Conquiste o sucesso conosco",
+      ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: 'Atendimento online ou presencial com hora marcada.',
-        textTwo: '',
+        text: "Atendimento online ou presencial com hora marcada.",
+        textTwo: "",
       },
-      secondaryCta: 'Contato',
+      secondaryCta: "Contato",
       images: {
         static: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide1: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide2: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide3: {
           img: {},
-          alt: '',
+          alt: "",
         },
       },
     },
     features: {
-      miniTag: 'Áreas de Atuação',
+      miniTag: "Áreas de Atuação",
       title: (
         <h1>
           Atuação Jurídica
@@ -186,15 +186,15 @@ const content = {
         </h1>
       ),
       subtitle:
-        'Oferecemos assessoria e orientação jurídica, com foco na prevenção de riscos e na segurança das relações legais.',
+        "Oferecemos assessoria e orientação jurídica, com foco na prevenção de riscos e na segurança das relações legais.",
       imgFeatures: imgFeatures,
-      alt: 'imagem representativa da Seção Serviços',
-      titleMessageFeature: '100%',
-      subtitleMessageFeature: 'compromisso jurídico',
+      alt: "imagem representativa da Seção Serviços",
+      titleMessageFeature: "100%",
+      subtitleMessageFeature: "compromisso jurídico",
       cards: {
         card1: {
-          title: 'Direito Bancário',
-          subtitle: 'Evite abusos praticados pelos bancos.',
+          title: "Direito Bancário",
+          subtitle: "Evite abusos praticados pelos bancos.",
           description: (
             <div>
               A_Definir
@@ -204,14 +204,14 @@ const content = {
             </div>
           ),
           icon: <CircleDollarSign />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba mais',
-          link: 'https://lpa-paulo-nascimento-advogados.vercel.app/',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba mais",
+          link: "https://bancario.psnascimento.adv.br",
         },
         card2: {
-          title: 'Direito Imobiliário',
+          title: "Direito Imobiliário",
           subtitle:
-            'Transformando insegurança jurídica em patrimônio protegido.',
+            "Transformando insegurança jurídica em patrimônio protegido.",
           description: (
             <div>
               A_Definir
@@ -221,14 +221,14 @@ const content = {
             </div>
           ),
           icon: <Building />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba mais',
-          link: 'https://lpa-direito-imobiliario-paulo.vercel.app/',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba mais",
+          link: "https://imobiliario.psnascimento.adv.br",
         },
         card3: {
-          title: 'Direito Cível',
+          title: "Direito Cível",
           subtitle:
-            'As relações humanas estão cada vez mais complexas! Evite prejuízos ou desgastes desnecessários.',
+            "As relações humanas estão cada vez mais complexas! Evite prejuízos ou desgastes desnecessários.",
           description: (
             <div>
               A_Definir <br />
@@ -237,14 +237,14 @@ const content = {
             </div>
           ),
           icon: <Scale />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba mais',
-          link: '',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba mais",
+          link: "",
         },
         card4: {
-          title: 'Direito Sucessório',
+          title: "Direito Sucessório",
           subtitle:
-            'O inventário não precisa ser um peso. A solução pode ser mais rápida do que você imagina.',
+            "O inventário não precisa ser um peso. A solução pode ser mais rápida do que você imagina.",
           description: (
             <div>
               A_Definir
@@ -254,13 +254,13 @@ const content = {
             </div>
           ),
           icon: <Users />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba mais',
-          link: 'https://lpa-secessao-paulo-nascimento.vercel.app/',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba mais",
+          link: "https://sucessao.psnascimento.adv.br",
         },
         card5: {
           title: <p>A_Definir</p>,
-          subtitle: 'A_Definir',
+          subtitle: "A_Definir",
           description: (
             <div>
               A_Definir
@@ -287,12 +287,12 @@ const content = {
               <path d="M12 18V6" />
             </svg>
           ),
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card6: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: "A_Definir",
+          subtitle: "A_Definir",
           description: (
             <div>
               A_Definir
@@ -302,48 +302,48 @@ const content = {
             </div>
           ),
           icon: <Scale />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
       },
       moreFeatures: {
         card1: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
     maps: {
-      minitag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
-      embedsrc: 'A_Definir',
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      embedsrc: "A_Definir",
     },
     about: {
       imagem: {
         img: aboutImg,
-        alt: 'Imagem ilustrativa da Seção Sobre',
+        alt: "Imagem ilustrativa da Seção Sobre",
       },
-      miniTag: 'QUEM É PAULO NASCIMENTO ADVOGADOS',
+      miniTag: "QUEM É PAULO NASCIMENTO ADVOGADOS",
       title: (
         <h1>
           Nossa
           <span className="destaque italic font-light"> trajetória</span>
         </h1>
       ),
-      SecondPartTitle: '',
-      subtitle: 'Consultoria Jurídica Estratégica: Ética e Resultados.',
+      SecondPartTitle: "",
+      subtitle: "Consultoria Jurídica Estratégica: Ética e Resultados.",
       paragraph: (
         <div>
           Com foco na defesa intransigente das prerrogativas e dos direitos,
@@ -351,7 +351,7 @@ const content = {
           impactem positivamente a esfera jurídica de nossos clientes.
         </div>
       ),
-      buttonModalLabelAbout: 'Continuar lendo',
+      buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="text-mutedForeground font-secondFont">
           Com foco na defesa intransigente das prerrogativas e dos direitos,
@@ -371,27 +371,27 @@ const content = {
           técnica define nossa busca pela excelência na prestação de serviços.
         </p>
       ),
-      paragraphModalCta: 'Entre em contato',
-      titleModal: 'Nossa trajetória',
-      ctaButtonAriaLabel: 'Botão para entrar em contato',
-      ctaButtonText: 'Entre em contato',
+      paragraphModalCta: "Entre em contato",
+      titleModal: "Nossa trajetória",
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
-          altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
-        miniTag: 'REDES SOCIAIS',
-        title: 'Conecte-se conosco',
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
         subtitle:
-          'Acompanhe nossas redes sociais e tenha acesso a conteúdos jurídicos que ajudam você a se proteger e decidir melhor.',
+          "Acompanhe nossas redes sociais e tenha acesso a conteúdos jurídicos que ajudam você a se proteger e decidir melhor.",
         paragraph: <p></p>,
-        labelInstagram: 'Siga-nos no Instagram',
-        labelFacebook: 'Siga-nos no Facebook',
-        labelLinkedin: 'Siga-nos no LinkedIn',
-        labelX: 'Siga-nos no X',
-        labelTiktok: 'Siga-nos no Tik Tok',
-        labelYoutube: 'Siga-nos no Youtube',
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
+        labelTiktok: "Siga-nos no Tik Tok",
+        labelYoutube: "Siga-nos no Youtube",
       },
     },
     // team: {
@@ -419,7 +419,7 @@ const content = {
     //   },
     // },
     steps: {
-      miniTag: 'PASSO A PASSO',
+      miniTag: "PASSO A PASSO",
       title: (
         <h1>
           Como
@@ -427,13 +427,13 @@ const content = {
           atendimento?
         </h1>
       ),
-      subtitle: '',
+      subtitle: "",
       img: imgSteps,
-      alt: 'Imagem ilustrativa da Seção Passo a Passo',
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: 'Contato inicial',
+          cardTitle: "Contato inicial",
           cardDescription: (
             <p>
               Será realizado pelo WhatsApp como forma de agilizarmos o
@@ -448,33 +448,33 @@ const content = {
         },
         card2: {
           stepNumber: 2,
-          cardTitle: 'Análise detalhada',
+          cardTitle: "Análise detalhada",
           cardDescription:
-            'Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa',
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: 'Elaboração da estratégia',
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            'Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.',
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: 'Ação legal',
+          cardTitle: "Ação legal",
           cardDescription:
-            'Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.',
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     ctaSecondary: {
-      miniTag: 'FALE CONOSCO',
+      miniTag: "FALE CONOSCO",
       title: (
         <h1>
           Enfrentando um problema jurídico? Deixe que cuidamos disso para você!
         </h1>
       ),
       subtitle:
-        'Entre em contato agora para uma consulta especializada e comece a encontrar a solução que você precisa.',
+        "Entre em contato agora para uma consulta especializada e comece a encontrar a solução que você precisa.",
       subtitleDireita: (
         <p className="gap-3 flex font-mainFont opacity-60 mt-1">
           <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
@@ -483,9 +483,9 @@ const content = {
       titleDireita: (
         <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
       ),
-      ctaButtonText: 'Falar agora',
+      ctaButtonText: "Falar agora",
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
+        "Botão para chamada de ação para contato pelo whatsapp",
     },
     // blog: {
     //   miniTag: 'BLOG',
@@ -497,32 +497,32 @@ const content = {
     //   blogLink: 'mauromoncao.wordpress.com', //sem "https://"
     // },
     faq: {
-      miniTag: 'TIRE SUAS DÚVIDAS',
-      title: 'Perguntas Frequentes',
-      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas.',
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: 'Como posso contratar seus serviços?',
+          question: "Como posso contratar seus serviços?",
           answer:
-            'Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.',
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: 'Qual é o prazo médio para resolução de um caso?',
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            'O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.',
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: 'Quais documentos devo levar para a consulta?',
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            'Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.',
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: 'Vocês oferecem serviços de consultoria preventiva?',
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            'Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.',
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-      paragraph: 'Clique aqui caso tenha mais dúvidas',
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     // team: {
     //   miniTag: 'A_Definir',
@@ -792,13 +792,13 @@ const content = {
     // },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
-      midSectionName: 'Até mais',
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
       footerText:
-        'Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.',
-      footerSocialText: 'Siga a gente nas redes sociais:',
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
@@ -824,7 +824,7 @@ const content = {
 
           <ul class="list-disc ml-6 mb-6 space-y-2">
             <li>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{' '}
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
               órgão responsável pela fiscalização e aplicação da LGPD.
             </li>
 
@@ -1031,9 +1031,9 @@ const content = {
         </div>
       ),
       pontos: {
-        ponto1: 'Profissionalismo',
-        ponto2: 'Experiência',
-        ponto3: 'Resultados',
+        ponto1: "Profissionalismo",
+        ponto2: "Experiência",
+        ponto3: "Resultados",
       },
     },
     // socios: {
@@ -1105,15 +1105,15 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
-}
+};
 
 export const abstractions = {
   titleModal: <strong>{content.texts.about.title}</strong>,
   subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
-}
+};
 
-export default content
+export default content;
